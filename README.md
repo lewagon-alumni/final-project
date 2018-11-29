@@ -14,7 +14,11 @@ git remote remove origin
 ```bash
 git remote add origin PASTE_THE_SSH_URL
 ```
-- Push your code on GitHub
+- Pull the master branch on your machine:
+```
+git pull origin master
+```
+- Push your rails app on GitHub;
 ```
 git push origin master
 ```
